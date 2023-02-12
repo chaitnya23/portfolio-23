@@ -1,38 +1,58 @@
-.App {
-  text-align: center;
+html {
+  scroll-behavior: smooth;
+}
+body{
+  
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  
+}
+.i-bg{
+  clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+  height: 100%;width: 100%;
+  background-color: #5fd75b;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+/* new */
+/* .nav ul li{
+  @apply hover:text-purple-600 cursor-pointer
+} */
+.home button{
+  @apply px-3 mt-6 shadow hover:bg-purple-500 hover:scale-[.92] duration-100 transition-all bg-purple-700 font-semibold text-white rounded-lg py-3
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.promote-box button{
+  @apply px-3 mt-6 bg-white  shadow  hover:scale-[.92] duration-100 transition-all  font-semibold text-purple-600 rounded-lg py-3
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.profile-img div{
+
+  height: 16rem;
+  width: 16rem;
+  border-radius: 55% 45% 37% 63% / 36% 35% 65% 64% ;
+  @apply bg-purple-500
+
 }
 
-.App-link {
-  color: #61dafb;
+.demo-btn{
+  @apply cursor-pointer hover:bg-purple-700 p-2 w-fit flex items-center gap-2 text-white bg-purple-500 font-semibold rounded-md mt-6
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.send-msg-btn{
+  @apply  text-sm cursor-pointer hover:bg-purple-700 p-2 w-fit flex items-center gap-2 text-white bg-purple-500 font-semibold rounded-md mt-6
+
+}
+
+.nav ul li{
+  @apply hover:text-purple-500
+}
+
+.popup-box{
+  @apply fixed w-full flex justify-center items-center left-0 right-0 top-0 bottom-0 z-50  bg-[#000000b4]  ;
+}
+
+
+.main-box-1{
+  @apply md:bg-red-300   bg-blue-500 h-[100px] p-10
 }
