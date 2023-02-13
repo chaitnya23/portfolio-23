@@ -48,7 +48,7 @@ function Home() {
           <p className="text-4xl font-bold">Hi ,I'am Chaitnya</p>
           <p className="font-semibold mt-4 text-lg">Full stack developer</p>
           <p className="mt-5 ">
-            I am a full stack MERN stack web developer passionate about the web technology with prior knowledge of react js 
+            I' am a full stack MERN  stack web developer passionate about the web technology with prior knowledge of react js 
           </p>
 
           <button>Contact Me</button>
