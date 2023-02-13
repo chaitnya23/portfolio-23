@@ -31,7 +31,7 @@ function Home() {
               <a href="https://www.instagram.com/chaitnyaofficial_23_/?hl=en">
                 <FiInstagram size={23} className="mt-8 text-purple-600 cursor-pointer" />
               </a>
-  
+
 
             </div>
 
@@ -39,7 +39,7 @@ function Home() {
 
           <div className="mr-10 profile-img">
             <div></div>
-         
+
           </div>
 
         </div>
@@ -47,7 +47,9 @@ function Home() {
         <div className={` ${!darkMode ? "text-gray-600" : "text-gray-200"} details md:ml-10 md:mt-0 mt-16 md:w-2/5`}>
           <p className="text-4xl font-bold">Hi ,I'am Chaitnya</p>
           <p className="font-semibold mt-4 text-lg">Full stack developer</p>
-          <p className="mt-5 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet. Ea quaerat perspiciatis veniam unde enim quibusdam.</p>
+          <p className="mt-5 ">
+            I am a full stack MERN stack web developer passionate about the web technology with prior knowledge of react js 
+          </p>
 
           <button>Contact Me</button>
         </div>
