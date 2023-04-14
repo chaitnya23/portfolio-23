@@ -15,7 +15,7 @@ export default function Navbar() {
         <div className={`sticky top-0 z-30 ${!darkMode ? "bg-white" : "bg-[#203356]"}  `}>
 
             <div className={`flex nav border-b-2 items-center py-5 my-3 w-3/4 mx-auto justify-between font-semibold ${!darkMode ? "text-gray-600" : "text-gray-200"}`}>
-                <div className="logo text-xl">Alexa</div>
+                <div className="logo text-xl">Chaitnya</div>
 
                 <div className="md:hidden block relative">
                     <CgMenuGridO size={25} onClick={() => setopenNavDropDown(!openNavDropDown)} />

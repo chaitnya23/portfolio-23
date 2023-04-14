@@ -38,8 +38,10 @@ function Home() {
           </div>
 
           <div className="mr-10 profile-img">
-            <div></div>
+            <div>
 
+              <img src="images/myself.png" alt="" />
+            </div>
           </div>
 
         </div>
