@@ -12,7 +12,7 @@ function Skills() {
         <p className="font-semibold text-center text-gray-400 mt-5 ">My Technical Levels</p>
       </div>
 
-      <div className="w-3/4 gap-10 mx-auto  md:grid grid-cols-2">
+      <div className="w-3/4 gap-10 mx-auto  md:grid grid-cols-2 ">
         {
           data.map((ele) => {
             return (
