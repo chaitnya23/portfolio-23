@@ -28,11 +28,22 @@ body{
 
 .profile-img div{
 
-  height: 16rem;
-  width: 16rem;
+  height: 20rem;
+  width: 19rem;
   border-radius: 55% 45% 37% 63% / 36% 35% 65% 64% ;
+  animation: rotation 3.5s linear infinite;
   @apply bg-purple-500
 
+}
+
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+}
+to {
+    transform: rotate(360deg);
+}
 }
 
 .demo-btn{

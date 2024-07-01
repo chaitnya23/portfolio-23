@@ -21,55 +21,47 @@ export default function About() {
   };
 
   return (
-    <section id="about">
+    <section id="about" className="text-white">
       <div className="text-center ">
         <p className="text-3xl font-bold mb-5">About me</p>
-        <p className="font-semibold text-gray-500">My Introduction</p>
+        <p className="font-semibold text-gray-200">My Introduction</p>
       </div>
 
-      <div className="w-3/4 mx-auto shadow p-4 mt-12 md:flex gap-12">
-        <div className="profile md:h-fit h-52">
+      <div className="w-3/4 mx-auto shadow p-4 mt-12 md:flex gap-16">
+        <div className="profile h-[20rem] w-[60%]">
           <img
-            className="object-cover mt-10 rounded-lg h-full w-full"
-            src="https://raw.githubusercontent.com/bedimcode/responsive-portfolio-website-Alexa/main/assets/img/about.jpg"
+            className="object-contain mt-10 rounded-lg h-full w-full"
+            src="images/about-me.jpg"
             alt=""
           />
         </div>
 
         <div className="info  p-1 mx-10 font-semibold mt-4">
-          <p className={`${darkMode ? "text-white" : "text-gray-500"}`}>
+          <p className={``}>
             I'm a web developer and a proggramer with a focus on the MERN stack,
             but still exploring other technologies and frameworks that catch my
             interest! if you're looking for a developer to add to your team, I'd
             love to hear from you!
-
-            <p className={`${darkMode ? "text-white" : "text-gray-500"} mt-6 font-light`}>
+            <p className={` mt-6 font-light`}>
               currently pursuing B.tech degree from Indian Institute Of
               Information Technology ,Dharwad in computer Science Engineering
             </p>
-
           </p>
 
-
           <div className="md:grid grid-cols-3  gap-6 mt-7">
-            <div className="shadow-lg rounded-lg p-3 text-center">
-              <p className="text-3xl  font-bold">2+</p>
-              <p
-                className={`${darkMode ? "text-white" : "text-gray-500"} mt-2`}
-              >
-                Years Experiance In web
-              </p>
+            <div className="shadow-lg rounded-lg p-3 text-center bg-orange-500">
+              <p className="text-3xl  font-bold">2.5+</p>
+              <p>Years Experiance In web</p>
             </div>
 
-            <div className="shadow-lg rounded-lg p-3 text-center">
+            <div className="shadow-lg rounded-lg p-3 text-center bg-orange-500">
               <p className="text-3xl  font-bold">8+</p>
-              <p
-                className={`${
-                  darkMode ? "text-white" : "text-gray-500"
-                } mt-2 font-sm`}
-              >
-                Web Dev Projects
-              </p>
+              <p>Web Dev Projects</p>
+            </div>
+
+            <div className="shadow-lg rounded-lg p-3 text-center bg-orange-500">
+              <p className="text-3xl  font-bold">6</p>
+              <p>Months of internship experience</p>
             </div>
           </div>
 

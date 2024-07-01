@@ -18,22 +18,15 @@ function App() {
   
   const {darkMode ,setdarkMode} = useContext(modeContext);
 
-
-  // const scrollToSection = (eleref) => {
-  //  // console.log(home.current);
-  //   window.scrollTo({ top: eleref.current.offsetTop, behavior: "smooth" });
-  // };
   return (
-    <div className="App" style={darkMode?{color:"white" ,backgroundColor:"#203354"}:{color:"black" ,backgroundColor:"white"}}>
+    <div className="App" >
     
         <Navbar/>
         <Home />
         <About/>
-        <PromoteBox/>
         <Skills/>
         <Projects/>
         <Contact/>
-        <Services/>
         <Footer/>
     </div>
   );

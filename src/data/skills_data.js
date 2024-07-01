@@ -74,3 +74,71 @@ export const data = [
 
 ]
 
+export const skills_data = [
+    {
+        name:"React",
+        img:"/images/react-png.png"
+    },
+    {
+        name:"Node js",
+        img:"/images/nodejs-png.png",
+        bg:"bg-green-100"
+    },
+    {
+        name:"Next js",
+        img:"/images/nextjs-png.png",
+        bg:'bg-transperent'
+    },
+    {
+        name:"Mongo DB",
+        img:"/images/mongo-png.png",
+        bg:"bg-green-100"
+    },
+    {
+        name:"Tailwind CSS",
+        img:"/images/tailwind-png.png",
+        bg:"bg-blue-100"
+    },
+    {
+        name:"Material UI",
+        img:"/images/mui-png.png",
+        bg:'bg-blue-100'
+    },
+    {
+        name:"PostgreSQL",
+        img:"/images/postgre-sql.png",
+        bg:'bg-pink-100'
+
+    },
+    {
+        name:"HTML",
+        img:"/images/html-png.png",
+        bg:'bg-red-200'
+
+    },
+    {
+        name:"Javascript",
+        img:"/images/js-png.png",
+        bg:'bg-yellow-100'
+
+    },
+    {
+        name:"C++",
+        img:"/images/cpp-png.png",
+        bg:'bg-blue-100'
+
+    },
+    {
+        name:"Java",
+        img:"/images/java-png.png",
+        bg:'bg-orange-100'
+
+    },
+    {
+        name:"Git",
+        img:"/images/git-png.png",
+        bg:'bg-orange-100'
+
+    },
+   
+]

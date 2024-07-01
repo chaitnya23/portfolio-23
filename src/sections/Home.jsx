@@ -37,16 +37,15 @@ function Home() {
 
           </div>
 
-          <div className="mr-10 profile-img">
-            <div>
-
-              <img src="images/myself.png" alt="" />
+          <div className="mr-10 profile-img relative">
+            <div className="p-2">
             </div>
+            <img className=" absolute top-0 bottom-0 right-0 left-0" src="images/my-avator.png" alt="" />
           </div>
 
         </div>
 
-        <div className={` ${!darkMode ? "text-gray-600" : "text-gray-200"} details md:ml-10 md:mt-0 mt-16 md:w-2/5`}>
+        <div className={`text-gray-200 details md:ml-10 md:mt-0 mt-16 md:w-2/5`}>
           <p className="text-4xl font-bold">Hi ,I'am Chaitnya</p>
           <p className="font-semibold mt-4 text-lg">Full stack developer</p>
           <p className="mt-5 ">
