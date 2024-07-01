@@ -48,7 +48,7 @@ export default function Projects() {
                     <p className="font-semibold text-center text-gray-400 mt-5 ">My Most Recent Work</p>
                 </div>
 
-                <div className=" md:flex flex-wrap gap-8 justify-center w-[60%] m-auto">
+                <div className=" md:flex flex-wrap gap-8 justify-center w-[70%] m-auto">
 
 
                     {
